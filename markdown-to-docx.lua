@@ -16,15 +16,16 @@ package.path = script_dir .. "?.lua;" .. script_dir .. "?/init.lua;" .. package.
 -- 在此列表中添加/调整顺序即可，无需再手写多段 require 与循环。
 local modules = {
     -- markdown 里的html语法识别：上下标、img标签等
-	-- 'lua/markdown-html-recognition',
+	'lua/markdown-html-recognition',
 	-- 为文本添加字体颜色支持
 	'lua/preserve_font_color',
     -- pandoc默认把图片alt作为图片标题，改为title作为图片标题
-	'lua/image-title-to-caption',
-	-- 为行内代码添加自定义样式
+	-- 'lua/image-title-to-caption',
+	-- 为行内代码添加自定义样式s
 	'lua/add-inline-code',
 	-- 在下方继续追加模块名称，例如：
 	-- 'your-extra-filter-module',
+	'lua/upright-numbers',
 }
 
 -- 收集最终要返回给 Pandoc 的过滤器（数组形式）。

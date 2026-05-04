@@ -107,3 +107,10 @@ function Span(el)
 
   return el
 end
+
+
+-- 返回过滤器
+
+return {
+  { Span = Span }
+}
