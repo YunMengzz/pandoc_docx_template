@@ -234,3 +234,7 @@ python "D:\Projects\pandoc_docx_template\fix-three-line-tables.py" "${outputPath
 `fix-three-line-tables.py`: 所有的表格样式改为三线表，表格边框修改为三线表的样子，加上1cm的强制缩进（python内部可改），<font color="red">不清除单元格边框</font>
 
 `change-to-three-line-tables-all.py`: 表格样式改为三线表，表格边框修改为三线表的样子，加上1cm的强制缩进（python内部可改），<font color="red">清除单元格边框</font>
+
+
+
+# 转word中公式改为svg
